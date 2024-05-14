@@ -18,7 +18,8 @@ Unsupervised Domain Adaptation on data from different medical centers and device
 `To develop an AI system using Unsupervised Domain Adaptation (UDA) to grade arrested retinal development from OCT scans across various devices and protocols.`
 
 ### Training Pipeline
-![Pipeline Diagram](https://github.com/prtk1729/Unsupervised-Domain-Adaptation-on-Medical-Imaging/Pipeline_diagram.png)
+<img src="[https://github.com/username/repository/blob/main/path/to/image.png](https://github.com/prtk1729/Unsupervised-Domain-Adaptation-on-Medical-Imaging/Pipeline_diagram.png" alt="Pipeline Diagram">
+
 
 
 ### Explorative results
