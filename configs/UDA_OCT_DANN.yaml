@@ -1,0 +1,29 @@
+TRAINER: 'DANN'
+
+TASK:
+  NAME: 'UDA'
+
+MODEL:
+  PRETRAIN: True
+  BASENET: 'resnet50'
+  DNET: 'Discriminator'
+  D_INDIM: 1024
+  D_OUTDIM: 1
+
+DATASET:
+  NAME: 'binary' #'binary' #'6class' #
+  ROOT: '/data/neuroretinal/UDA' #/binary' 6class
+
+METHOD:
+  W_ALG: 0.1
+  ENT: False
+
+TRAIN:
+  BATCH_SIZE_SOURCE: 36
+  BATCH_SIZE_TARGET: 36
+  LR: 0.001
+  TTL_ITE: 5000
+  TEST_FREQ: 5
+  PRINT_FREQ: 50
+  SAVE_FREQ: 1000
+  OUTPUT_ROOT: 'exps/inf' #'exps/bin' 
